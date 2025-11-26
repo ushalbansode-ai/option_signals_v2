@@ -2,34 +2,43 @@ name: Update NSE Option Signals
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch:
+    - cron: "*/5 * * * *"        # every 5 minutes
+  workflow_dispatch:              # manual run
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
 
-    - name: Install dependencies
-      run: |
-        pip install requests pandas numpy pytz
+      - name: Install dependencies
+        run: pip install requests pandas numpy pytz
 
-    - name: Run signal generator
-      run: python option_signals.py
+      - name: Run signal generator only in market hours
+        run: |
+          current_utc_hour=$(date -u +%H)
+          current_utc_minute=$(date -u +%M)
+          current_minutes=$((10#$current_utc_hour * 60 + 10#$current_utc_minute))
 
-    - name: Commit updated files
-      run: |
-        git config user.name "github-actions"
-        git config user.email "github-actions@github.com"
-        git add -A
-        git commit -m "Auto-update dashboard" || echo "No changes"
-        git push
-        
+          if [ $current_minutes -ge 225 ] && [ $current_minutes -le 600 ]; then
+            echo "Within market hours → Running script"
+            python option_signals.py
+          else
+            echo "Outside market hours → Skipping script"
+          fi
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Auto-update dashboard"
+          git push
+          
