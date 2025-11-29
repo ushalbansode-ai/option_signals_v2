@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-29 10:25:37",
+  "last_updated": "2025-11-29 11:09:40",
   "signals": [
     {
       "symbol": "RELIANCE",
@@ -13,19 +13,19 @@
       "coi": 25,
       "volume": 228,
       "iv": 16.68,
-      "score": 0.53,
+      "score": 0.7,
       "price_trend": 0.0,
-      "ema_trend": -0.118237,
-      "vwap_dev": 0.6674,
+      "ema_trend": -0.059119,
+      "vwap_dev": 0.623,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 53.33647422790527,
-        "ema_new": 53.21823711395264,
-        "ema_delta": -0.118237,
-        "vwap": 52.74793478260869,
-        "vwap_dev_pct": 0.6674,
+        "ema_prev": 53.21823711395264,
+        "ema_new": 53.159118556976324,
+        "ema_delta": -0.059119,
+        "vwap": 52.77121519721577,
+        "vwap_dev_pct": 0.623,
         "iv_delta": 0.0,
         "iv_now": 16.68,
         "oi_speed": 0.0,
@@ -35,7 +35,7 @@
       },
       "pcr": 0.695,
       "oi_ratio": 0.58,
-      "timestamp": "2025-11-29 10:25:17"
+      "timestamp": "2025-11-29 11:09:15"
     },
     {
       "symbol": "HDFCBANK",
@@ -49,19 +49,19 @@
       "coi": 56,
       "volume": 384,
       "iv": 14.89,
-      "score": -0.42,
+      "score": -0.35,
       "price_trend": 0.0,
-      "ema_trend": -0.019778,
-      "vwap_dev": -0.2254,
+      "ema_trend": -0.009889,
+      "vwap_dev": -0.2045,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 22.889556884765625,
-        "ema_new": 22.869778442382813,
-        "ema_delta": -0.019778,
-        "vwap": 22.901609470603884,
-        "vwap_dev_pct": -0.2254,
+        "ema_prev": 22.869778442382813,
+        "ema_new": 22.85988922119141,
+        "ema_delta": -0.009889,
+        "vwap": 22.896825971518222,
+        "vwap_dev_pct": -0.2045,
         "iv_delta": 0.0,
         "iv_now": 14.89,
         "oi_speed": 0.0,
@@ -71,7 +71,7 @@
       },
       "pcr": 0.673,
       "oi_ratio": 0.69,
-      "timestamp": "2025-11-29 10:25:20"
+      "timestamp": "2025-11-29 11:09:22"
     },
     {
       "symbol": "ADANIENT",
@@ -85,19 +85,19 @@
       "coi": 271,
       "volume": 2372,
       "iv": 28.24,
-      "score": 15.23,
+      "score": 13.51,
       "price_trend": 0.0,
-      "ema_trend": 0.253929,
-      "vwap_dev": 9.4743,
+      "ema_trend": 0.126965,
+      "vwap_dev": 8.6702,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 64.79214172363281,
-        "ema_new": 65.0460708618164,
-        "ema_delta": 0.253929,
-        "vwap": 59.64872330547818,
-        "vwap_dev_pct": 9.4743,
+        "ema_prev": 65.0460708618164,
+        "ema_new": 65.1730354309082,
+        "ema_delta": 0.126965,
+        "vwap": 60.09004905511293,
+        "vwap_dev_pct": 8.6702,
         "iv_delta": 0.0,
         "iv_now": 28.24,
         "oi_speed": 0.0,
@@ -107,7 +107,7 @@
       },
       "pcr": 0.663,
       "oi_ratio": 0.687,
-      "timestamp": "2025-11-29 10:25:33"
+      "timestamp": "2025-11-29 11:09:35"
     },
     {
       "symbol": "SUNPHARMA",
@@ -123,15 +123,15 @@
       "iv": 0.0,
       "score": 20.0,
       "price_trend": 0.0,
-      "ema_trend": 17.36875,
+      "ema_trend": 8.684375,
       "vwap_dev": 0.0,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 104.21249999999999,
-        "ema_new": 121.58124999999998,
-        "ema_delta": 17.36875,
+        "ema_prev": 121.58124999999998,
+        "ema_new": 130.265625,
+        "ema_delta": 8.684375,
         "vwap": null,
         "vwap_dev_pct": 0.0,
         "iv_delta": 0.0,
@@ -143,7 +143,7 @@
       },
       "pcr": 0.757,
       "oi_ratio": 0.478,
-      "timestamp": "2025-11-29 10:25:35"
+      "timestamp": "2025-11-29 11:09:38"
     },
     {
       "symbol": "WIPRO",
@@ -157,19 +157,19 @@
       "coi": 20,
       "volume": 147,
       "iv": 22.26,
-      "score": 6.55,
+      "score": 6.1,
       "price_trend": 0.0,
-      "ema_trend": 0.019363,
-      "vwap_dev": 4.3181,
+      "ema_trend": 0.009681,
+      "vwap_dev": 4.0424,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 6.911274757385254,
-        "ema_new": 6.9306373786926265,
-        "ema_delta": 0.019363,
-        "vwap": 6.662316585148954,
-        "vwap_dev_pct": 4.3181,
+        "ema_prev": 6.9306373786926265,
+        "ema_new": 6.940318689346313,
+        "ema_delta": 0.009681,
+        "vwap": 6.679966611018362,
+        "vwap_dev_pct": 4.0424,
         "iv_delta": 0.0,
         "iv_now": 22.26,
         "oi_speed": 0.0,
@@ -179,7 +179,7 @@
       },
       "pcr": 0.738,
       "oi_ratio": 0.566,
-      "timestamp": "2025-11-29 10:25:36"
+      "timestamp": "2025-11-29 11:09:39"
     }
   ],
   "market": [
@@ -188,140 +188,140 @@
       "price": 26202.95,
       "atm": 26200,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:15"
+      "updated": "2025-11-29 11:09:13"
     },
     {
       "symbol": "BANKNIFTY",
       "price": 59752.7,
       "atm": 59800,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:16"
+      "updated": "2025-11-29 11:09:14"
     },
     {
       "symbol": "RELIANCE",
       "price": 1569.0,
       "atm": 1570,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:17"
+      "updated": "2025-11-29 11:09:15"
     },
     {
       "symbol": "TCS",
       "price": 3135.9,
       "atm": 3140,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:18"
+      "updated": "2025-11-29 11:09:16"
     },
     {
       "symbol": "INFY",
       "price": 1558.1,
       "atm": 1560,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:19"
+      "updated": "2025-11-29 11:09:17"
     },
     {
       "symbol": "HDFCBANK",
       "price": 1006.7,
       "atm": 1005,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:20"
+      "updated": "2025-11-29 11:09:22"
     },
     {
       "symbol": "ICICIBANK",
       "price": 1388.4,
       "atm": 1390,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:21"
+      "updated": "2025-11-29 11:09:23"
     },
     {
       "symbol": "KOTAKBANK",
       "price": 2125.1,
       "atm": 2120,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:22"
+      "updated": "2025-11-29 11:09:24"
     },
     {
       "symbol": "BHARTIARTL",
       "price": 2100.0,
       "atm": 2100,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:24"
+      "updated": "2025-11-29 11:09:26"
     },
     {
       "symbol": "ITC",
       "price": 404.3,
       "atm": 405,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:25"
+      "updated": "2025-11-29 11:09:28"
     },
     {
       "symbol": "SBIN",
       "price": 976.35,
       "atm": 975,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:26"
+      "updated": "2025-11-29 11:09:29"
     },
     {
       "symbol": "LT",
       "price": 4080.0,
       "atm": 4080,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:27"
+      "updated": "2025-11-29 11:09:30"
     },
     {
       "symbol": "AXISBANK",
       "price": 1282.8,
       "atm": 1280,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:28"
+      "updated": "2025-11-29 11:09:31"
     },
     {
       "symbol": "MARUTI",
       "price": 15890.0,
       "atm": 15900,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:29"
+      "updated": "2025-11-29 11:09:32"
     },
     {
       "symbol": "HINDUNILVR",
       "price": 2468.0,
       "atm": 2460,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:30"
+      "updated": "2025-11-29 11:09:33"
     },
     {
       "symbol": "BAJFINANCE",
       "price": 1038.0,
       "atm": 1040,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:31"
+      "updated": "2025-11-29 11:09:34"
     },
     {
       "symbol": "ADANIENT",
       "price": 2282.0,
       "atm": 2280,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:33"
+      "updated": "2025-11-29 11:09:35"
     },
     {
       "symbol": "ULTRACEMCO",
       "price": 11585.0,
       "atm": 11600,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:34"
+      "updated": "2025-11-29 11:09:37"
     },
     {
       "symbol": "SUNPHARMA",
       "price": 1832.0,
       "atm": 1840,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:35"
+      "updated": "2025-11-29 11:09:38"
     },
     {
       "symbol": "WIPRO",
       "price": 249.55,
       "atm": 250,
       "strikes": 11,
-      "updated": "2025-11-29 10:25:36"
+      "updated": "2025-11-29 11:09:39"
     }
   ],
   "top_buy": [],
@@ -340,15 +340,15 @@
       "iv": 0.0,
       "score": 20.0,
       "price_trend": 0.0,
-      "ema_trend": 17.36875,
+      "ema_trend": 8.684375,
       "vwap_dev": 0.0,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 104.21249999999999,
-        "ema_new": 121.58124999999998,
-        "ema_delta": 17.36875,
+        "ema_prev": 121.58124999999998,
+        "ema_new": 130.265625,
+        "ema_delta": 8.684375,
         "vwap": null,
         "vwap_dev_pct": 0.0,
         "iv_delta": 0.0,
@@ -360,7 +360,7 @@
       },
       "pcr": 0.757,
       "oi_ratio": 0.478,
-      "timestamp": "2025-11-29 10:25:35"
+      "timestamp": "2025-11-29 11:09:38"
     },
     {
       "symbol": "ADANIENT",
@@ -374,19 +374,19 @@
       "coi": 271,
       "volume": 2372,
       "iv": 28.24,
-      "score": 15.23,
+      "score": 13.51,
       "price_trend": 0.0,
-      "ema_trend": 0.253929,
-      "vwap_dev": 9.4743,
+      "ema_trend": 0.126965,
+      "vwap_dev": 8.6702,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 64.79214172363281,
-        "ema_new": 65.0460708618164,
-        "ema_delta": 0.253929,
-        "vwap": 59.64872330547818,
-        "vwap_dev_pct": 9.4743,
+        "ema_prev": 65.0460708618164,
+        "ema_new": 65.1730354309082,
+        "ema_delta": 0.126965,
+        "vwap": 60.09004905511293,
+        "vwap_dev_pct": 8.6702,
         "iv_delta": 0.0,
         "iv_now": 28.24,
         "oi_speed": 0.0,
@@ -396,7 +396,7 @@
       },
       "pcr": 0.663,
       "oi_ratio": 0.687,
-      "timestamp": "2025-11-29 10:25:33"
+      "timestamp": "2025-11-29 11:09:35"
     },
     {
       "symbol": "WIPRO",
@@ -410,19 +410,19 @@
       "coi": 20,
       "volume": 147,
       "iv": 22.26,
-      "score": 6.55,
+      "score": 6.1,
       "price_trend": 0.0,
-      "ema_trend": 0.019363,
-      "vwap_dev": 4.3181,
+      "ema_trend": 0.009681,
+      "vwap_dev": 4.0424,
       "iv_trend": 0.0,
       "oi_speed": 0.0,
       "metrics": {
         "price_trend_pct": 0.0,
-        "ema_prev": 6.911274757385254,
-        "ema_new": 6.9306373786926265,
-        "ema_delta": 0.019363,
-        "vwap": 6.662316585148954,
-        "vwap_dev_pct": 4.3181,
+        "ema_prev": 6.9306373786926265,
+        "ema_new": 6.940318689346313,
+        "ema_delta": 0.009681,
+        "vwap": 6.679966611018362,
+        "vwap_dev_pct": 4.0424,
         "iv_delta": 0.0,
         "iv_now": 22.26,
         "oi_speed": 0.0,
@@ -432,7 +432,7 @@
       },
       "pcr": 0.738,
       "oi_ratio": 0.566,
-      "timestamp": "2025-11-29 10:25:36"
+      "timestamp": "2025-11-29 11:09:39"
     }
   ]
 }
