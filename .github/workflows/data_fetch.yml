@@ -1,0 +1,17 @@
+name: Fetch Bhavcopy Data
+
+on:
+  schedule:
+    - cron: '45 9 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - run: pip install -r requirements.txt
+      - run: python -m src.data_fetcher.nse_fetcher
