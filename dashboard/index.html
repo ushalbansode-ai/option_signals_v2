@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSE Options Finder Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>NSE Options & Futures Opportunities</h1>
+            <div class="last-update">Last Updated: <span id="lastUpdate"></span></div>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>Opportunities Found</h3>
+                <div id="oppCount" class="stat-value">0</div>
+            </div>
+            <div class="stat-card">
+                <h3>Top Signal</h3>
+                <div id="topSignal" class="stat-value">-</div>
+            </div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('combined')">Combined</button>
+            <button class="tab-btn" onclick="showTab('options')">Options</button>
+            <button class="tab-btn" onclick="showTab('futures')">Futures</button>
+        </div>
+
+        <div id="combined" class="tab-content active">
+            <h2>Opportunities</h2>
+            <div id="combinedTable"></div>
+        </div>
+
+        <div id="options" class="tab-content">
+            <h2>High OI Buildup</h2>
+            <div id="optionsTable"></div>
+        </div>
+
+        <div id="futures" class="tab-content">
+            <h2>Futures Analysis</h2>
+            <div id="futuresTable"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
